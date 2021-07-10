@@ -3,7 +3,7 @@
  * @Author: 何维想
  * @Date: 2021-07-07 12:46:26
  * @EditAuthor: heweixiang1110@163.com
- * @LastEditTime: 2021-07-11 02:08:52
+ * @LastEditTime: 2021-07-11 03:20:39
 -->
 <template>
   <div>
@@ -42,7 +42,7 @@ import { ref, watch } from "vue";
 import api from "../api/index";
 export default {
   setup() {
-    // 关于导航栏选项
+    // 关于导航栏选项内容
     const menus = [
       {
         router: "/about",
