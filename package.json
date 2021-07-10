@@ -1,5 +1,5 @@
 {
-  "name": "webserver",
+  "name": "webServer",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
