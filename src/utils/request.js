@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-07-06 20:28:32
- * @LastEditTime: 2021-07-06 23:56:26
+ * @LastEditTime: 2021-07-10 13:14:40
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \webServer\src\utils\request.js
@@ -18,7 +18,7 @@ const request = {
      * @param params 请求参数
      * @param callback 回调方法
      */
-    get(url, params, callback) {
+    async Get(url, params, callback) {
         return new Promise((resolve, reject) => {
             axios
                 .get(url, {
@@ -38,7 +38,7 @@ const request = {
      * @param params 请求参数
      * @param callback 回调方法
      */
-    post(url, params, callback) {
+    async Post(url, params, callback) {
         return new Promise((resolve, reject) => {
             axios
                 .post(url, qs.stringify(params))
@@ -46,7 +46,8 @@ const request = {
                     callback ? resolve(callback(res.data)) : resolve(res.data);
                 })
                 .catch(err => {
-                    reject(err);
+                    // reject(err);
+                    resolve(err)
                 });
         });
     },
