@@ -3,7 +3,7 @@
  * @Author: 何维想
  * @Date: 2021-07-06 23:34:28
  * @EditAuthor: heweixiang1110@163.com
- * @LastEditTime: 2021-07-07 12:42:48
+ * @LastEditTime: 2021-07-10 17:24:12
  */
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -14,6 +14,13 @@ import router from "./router/index"
 
 // 引入vueX
 import store from './store';
+
+// 引入公共css
+import "./assets/less/style.less"
+
+// 初始化css
+import 'normalize.css/normalize.css'
+
 
 // 导入elementUI
 import ElementPlus from 'element-plus';
