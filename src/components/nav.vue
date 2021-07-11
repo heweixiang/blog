@@ -3,7 +3,7 @@
  * @Author: 何维想
  * @Date: 2021-07-07 12:46:26
  * @EditAuthor: heweixiang1110@163.com
- * @LastEditTime: 2021-07-11 03:20:39
+ * @LastEditTime: 2021-07-11 16:01:44
 -->
 <template>
   <div>
@@ -84,8 +84,8 @@ export default {
 // 搜索框
 .menuInputBox {
   float: right;
-  margin-right: 60px;
-  width: 300px;
+  margin-right: 5rem;
+  width: 25rem;
 }
 
 // 鼠标经过 头像ID 输入框 不变
@@ -120,8 +120,8 @@ export default {
 // 定位ID名
 .menuLeftBox > span {
   display: inline-block;
-  margin-left: 25px;
-  font-size: 20px;
+  margin-left: 1.5rem;
+  font-size: 1.6rem;
 }
 
 // 导航栏盒子
@@ -131,12 +131,12 @@ export default {
 
 // 配置头像
 .menuLeftBox > img {
-  width: 40px;
+  width: 3.3rem;
   border-radius: 50%;
 }
 // 定位左右
 .menuBox:last-child {
-  padding-right: 10%;
+  padding-right: 10rem;
 }
 .menuBox:first-child {
   border: 0px;
