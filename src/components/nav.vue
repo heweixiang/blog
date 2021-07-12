@@ -3,7 +3,7 @@
  * @Author: 何维想
  * @Date: 2021-07-07 12:46:26
  * @EditAuthor: heweixiang1110@163.com
- * @LastEditTime: 2021-07-11 16:01:44
+ * @LastEditTime: 2021-07-11 21:41:59
 -->
 <template>
   <div>
@@ -13,7 +13,6 @@
       :default-active="$route.path"
       router
       unique-opened
-      @select="isSelect"
     >
       <!-- 头像和网名 -->
       <el-menu-item class="menuLeftBox">
