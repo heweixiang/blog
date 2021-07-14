@@ -12,7 +12,7 @@
       <img src="https://picsum.photos/id/171/1920/250" alt="" />
     </div>
     <div class="indexBox">
-      <span class="indexLeftBox">0 </span>
+      <span class="indexLeftBox">01 </span>
       <span class="indexRightBox">3</span>
     </div>
   </div>
