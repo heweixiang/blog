@@ -7,7 +7,9 @@
         "serve": "vite preview"
     },
     "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
         "axios": "^0.21.1",
+        "echarts": "^4.0.4",
         "element-plus": "^1.0.2-beta.54",
         "less": "^4.1.1",
         "less-loader": "^10.0.1",

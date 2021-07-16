@@ -130,7 +130,7 @@ export default {
 
 // 配置头像
 .menuLeftBox > img {
-  width: 3.3rem;
+  width: 3rem;
   border-radius: 50%;
 }
 // 定位左右
